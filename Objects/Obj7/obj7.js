@@ -13,7 +13,6 @@ function Accumulator(startingValue) {
       this.value += parseFloat(prompt("enter value, "));
     }
 }
-
 let accumulator = new Accumulator(1);
 accumulator.read();
 accumulator.read();
