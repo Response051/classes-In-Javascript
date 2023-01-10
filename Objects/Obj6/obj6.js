@@ -1,6 +1,7 @@
 /***
 Is it possible to create functions A and B so that new A() == new B()?
 if yes, render the function
+
 */
 let object = {};
 function A(name) {
