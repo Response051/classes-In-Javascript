@@ -10,7 +10,7 @@ In other words, the value property is the sum of all user-entered values with th
 function Accumulator(startingValue) {
   this.value = startingValue,
     this.read = function read() {
-      this.value += parseFloat(prompt("enter value, "));
+      this.value += parseFloat(prompt("enter value, 0"));
     }
 }
 let accumulator = new Accumulator(1);
